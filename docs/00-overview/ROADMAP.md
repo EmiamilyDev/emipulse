@@ -9,20 +9,34 @@ Last Updated: 2026-07-06
 
 # Purpose
 
-This roadmap defines the implementation plan for Pulse MVP (Version 1.0).
+This roadmap defines the implementation plan for Pulse MVP.
 
-Its purpose is to provide a clear development sequence, prevent scope creep, and ensure every sprint contributes directly toward a production-ready MVP.
+It provides a clear development sequence from project setup to production release.
 
-Any feature outside this roadmap must be added to the product backlog instead of the current implementation.
+The roadmap exists to maintain focus, reduce scope creep, and ensure that every development milestone delivers measurable value.
+
+---
+
+# Roadmap Principles
+
+The roadmap follows these principles:
+
+- Build in small, complete milestones.
+- Finish one milestone before starting the next.
+- Prioritize maintainability over feature quantity.
+- Documentation precedes implementation.
+- Keep the MVP focused.
 
 ---
 
 # Current Status
 
 Version
+
 MVP v1.0
 
 Current Sprint
+
 Sprint 1
 
 Completed
@@ -34,7 +48,7 @@ Completed
 
 In Progress
 
-- Documentation
+- Product Documentation
 
 Next
 
@@ -42,27 +56,43 @@ Next
 
 ---
 
-# MVP Milestones
+# Development Strategy
 
-## Milestone 1
-Project Foundation
+Pulse will be developed in sequential milestones.
 
-Deliverables
+Each milestone must be completed before moving to the next.
 
-- Project Architecture
-- Documentation
-- Design System
-- Database
-- Authentication
+No milestone should be skipped.
+
+Documentation is completed before implementation.
+
+---
+
+# Milestone 1 — Project Foundation
 
 Status
 
 Completed
 
+Deliverables
+
+- Project Structure
+- Design System
+- Database Design
+- Authentication
+- Documentation Foundation
+
+Goal
+
+Establish a stable technical foundation for the project.
+
 ---
 
-## Milestone 2
-Content Management System
+# Milestone 2 — Content Management System
+
+Status
+
+Planned
 
 Deliverables
 
@@ -70,16 +100,19 @@ Deliverables
 - Events Management
 - Gallery Management
 - News Management
-- Settings
+- Website Settings
 
 Goal
 
-Administrators can manage all website content without modifying code.
+Allow administrators to manage all website content without modifying source code.
 
 ---
 
-## Milestone 3
-Public Website
+# Milestone 3 — Public Website
+
+Status
+
+Planned
 
 Deliverables
 
@@ -90,43 +123,66 @@ Deliverables
 
 Goal
 
-Fans can browse all public information from one place.
+Provide fans with a modern and organized browsing experience.
 
 ---
 
-## Milestone 4
-Automation
+# Milestone 4 — Automation
+
+Status
+
+Planned
 
 Deliverables
 
 - Hero Automation
 - Activity Timeline
-- Automatic Homepage Updates
-- Search Index Update
+- Homepage Auto Updates
 
 Goal
 
-Reduce repetitive manual work.
+Reduce repetitive manual work while keeping the system simple.
 
 ---
 
-## Milestone 5
-Release
+# Milestone 5 — Quality Assurance
+
+Status
+
+Planned
 
 Deliverables
 
-- Testing
+- Functional Testing
+- Responsive Testing
+- Performance Optimization
 - Bug Fixes
-- Responsive Validation
-- Production Deployment
 
 Goal
 
-Release Pulse MVP v1.0
+Prepare the product for production release.
 
 ---
 
-# Sprint Plan
+# Milestone 6 — Production Release
+
+Status
+
+Planned
+
+Deliverables
+
+- Production Deployment
+- Final Validation
+- Version 1.0 Release
+
+Goal
+
+Launch Pulse MVP.
+
+---
+
+# Sprint Overview
 
 Sprint 1
 
@@ -146,7 +202,7 @@ Automation
 
 Sprint 5
 
-Testing & Optimization
+Quality Assurance
 
 Sprint 6
 
@@ -156,81 +212,84 @@ Production Release
 
 # Definition of MVP
 
-Pulse v1.0 is complete when:
+Version 1.0 is complete when:
 
-Admin can
+Administrators can
 
-✓ Manage Artist
+- Configure artist information
+- Manage events
+- Upload gallery images
+- Publish news
+- Configure website settings
 
-✓ Manage Events
+Fans can
 
-✓ Upload Gallery
+- Browse the homepage
+- View event information
+- Explore galleries
+- Read news
+- Search public content
 
-✓ Publish News
-
-✓ Configure Website
-
-Users can
-
-✓ Browse Homepage
-
-✓ View Events
-
-✓ Browse Gallery
-
-✓ Read News
-
-✓ Search Content
-
-No code changes are required for normal content updates.
+No source code modifications are required for normal content updates.
 
 ---
 
 # Success Criteria
 
-The project is considered successful when:
+Pulse MVP is successful when:
 
-- Documentation is complete
-- Content management works without developer support
-- Homepage displays dynamic content from Supabase
-- Responsive on Desktop, Tablet and Mobile
-- Production deployment completed
-- Website is easy to maintain
+- Documentation is complete.
+- Content can be managed through the CMS.
+- Homepage displays dynamic data from Supabase.
+- Responsive layouts work on Desktop, Tablet, and Mobile.
+- The system is stable enough for production deployment.
+- Content maintenance requires minimal technical knowledge.
 
 ---
 
-# Risks
+# Known Constraints
 
-Known constraints
+Current technical limitations include:
 
-- Instagram public metrics are limited.
-- TikTok public metrics are limited.
-- X API requires additional consideration.
+- Limited public social media APIs.
 - External APIs may change over time.
+- Some social metrics are unavailable for public access.
 
-These limitations will not block the MVP release.
+These limitations must not delay the MVP release.
 
 ---
 
 # Out of Scope
 
-The following features are NOT included in Version 1.0
+The following features are intentionally excluded from Version 1.0.
 
 - Archive
 - AI Features
+- Live Social Metrics
 - Multi Artist Support
 - User Accounts
 - Notifications
-- Live Social Metrics
+- Community Features
 - Advanced Analytics
 - Mobile Application
 
 ---
 
-# Change Policy
+# Release Policy
 
-This roadmap is frozen for Version 1.0.
+Version 1.0 is considered feature complete once all MVP milestones are finished.
 
-No new features may be added during the current implementation.
+No new features may be introduced before the MVP is released.
 
-New ideas must be added to the Product Backlog and reviewed after Version 1.0 is released.
+Additional ideas must be documented in the Product Backlog for future evaluation.
+
+---
+
+# Completion Criteria
+
+The roadmap is complete when:
+
+- Every milestone has been delivered.
+- Documentation matches the implementation.
+- All MVP objectives have been achieved.
+- Pulse Version 1.0 is deployed successfully.
